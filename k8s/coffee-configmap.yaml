@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: coffee-configmap
+  namespace: rida-abrahams-dev
+data:
+  COFFEE_PRODUCER: Nespresso South Africa
+# To create this configmap in OCP run the following command from the project root directory:
+# oc apply -f k8s/coffee-configmap.yaml
